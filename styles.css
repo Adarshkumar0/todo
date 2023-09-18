@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    font-family: Arial, sans-serif;
+}
+
+.gradient-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place it behind other content */
+    animation: gradientAnimation 4s linear infinite;
+    background: linear-gradient(135deg, #f06, #9f0);
+    background-size: 200% 200%;
+}
+
+/* styles.css */
+/* styles.css */
+.todo-container {
+    background: linear-gradient(135deg, #3498db, #e74c3c);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    position: relative;
+}
+
+/* Modern background pattern */
+
+
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+#task-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+#add-button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #161515;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#add-button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.delete-button {
+    padding: 5px 10px;
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: auto;
+}
+
+.delete-button:hover
+/* Light Theme */
+body.light {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #333;
+    color: #141313;
+}
+
+/* styles.css */
+/* Add a CSS class for fade-in animation */
+.animated-fade-in {
+    animation: fadeIn 1s;
+}
+
+/* Add animation classes for task items */
+.task-item {
+    animation-duration: 0.5s; /* Adjust animation duration as needed */
+}
+
+/* Define keyframes for fadeIn and fadeOut animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Include the animate.css library for additional animations */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
